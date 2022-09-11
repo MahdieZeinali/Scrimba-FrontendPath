@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.hero-sec {
+    background-image: url(images/isfahan.jpg);
+    background-size: cover;
+    min-height: 500px;
+    padding: 40px 0 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-sec {
+    display: flex;
+    margin: 0px;
+    background-color: #FDF8FF;
+    
+    
+}
+
+
+.contact-sec {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    width: 400px;
+
+    background-color: #E9DFEF;
+    border-bottom: 10px solid #cfbbdb;
+    border-radius: 10px;
+}
+
+
+.item {
+    padding: 50px;
+}
+
+
+.actimg {
+    width: 120px;
+    border-radius: 70%;
+}
+
+
+.contimg {
+    width: 100px;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+
+h3 {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+
+
+p {
+    margin: 0 auto 10px auto;
+}
+
+
+.intro {
+    margin: 0px;
+    padding: 6px 8px;
+    border-top: 2px solid black;
+}
+
+
+#guide {
+    margin: 0px auto 20px auto;
+    font-weight: bolder;
+    font-size: large;
+}
