@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 class="home-ti">HOME</h3>
+                <div id="home-num">0</div>
+
+                <div class="btn">
+                    <button class="home-btn" onclick="hbtn1()">+1</button>
+                    <button class="home-btn" onclick="hbtn2()">+2</button>
+                    <button class="home-btn" onclick="hbtn3()">+3</button>
+                    <br>
+                    <button id="home-save" class="home-btn" onclick="hsave()">Save</button>
+                    <br>
+                    <p id="hsave-el">Previous entires: </p>
+                </div>
+
+            </div>
+
+            <div class="guest">
+                <h3 class="guest-ti">GUEST</h3>
+                <div id="guest-num">0</div>
+                
+                <div class="btn">
+                    <button class="guest-btn" onclick="gbtn1()">+1</button>
+                    <button class="guest-btn" onclick="gbtn2()">+2</button>
+                    <button class="guest-btn" onclick="gbtn3()">+3</button>
+                    <br>
+                    <button id="guest-save" class="guest-btn" onclick="gsave()">Save</button>
+                    <br>
+                    <p id="gsave-el">Previous entires: </p>
+                </div>
+
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
