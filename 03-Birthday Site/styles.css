@@ -3,24 +3,25 @@ body {
     font-family: 'Happy Monkey', cursive;
     background: linear-gradient(#8199ab, #e9bdaf);
     color: #ffffff;
+    margin: 0px;
 }
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
+    margin: 0 auto;
 }
 
 #bff-img {
     width: 150px;
     border-radius: 80%;
     border: 6px solid #ecaf9a;
-    margin-bottom: 10px;
 }
 
 #bday-age {
     background: #ecaf9a;
     padding: 5px 10px;
     border-radius: 5px;
-    margin: 5px 0 10px 0;
+    margin: 15px 0 10px 0;
 }
 
 #bday-date {
